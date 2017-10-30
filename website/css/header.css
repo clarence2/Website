@@ -1,8 +1,9 @@
 
+.
 .menu-hover-lines {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   transition: all 0.35s ease;
 }
@@ -11,11 +12,11 @@
   padding: 0.75rem 0;
   color: rgba(10, 10, 10, 0.5);
   position: relative;
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .menu-hover-lines li:first-child a {
-  margin-left: 25rem;
+  margin-left: 35rem;
 }
 
 .menu-hover-lines li.active > a {
@@ -24,7 +25,7 @@
 
 .menu-hover-lines a:before,
 .menu-hover-lines a::after {
-  height: 3px;
+  height: 4px;
   position: absolute;
   content: '';
   transition: all 0.35s ease;
